@@ -9,22 +9,70 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
+  
+  let country: UILabel = {
+    let lb = UILabel()
+    lb.font = UIFont.boldSystemFont(ofSize: 20)
+    lb.translatesAutoresizingMaskIntoConstraints = false
+    return lb
+  }()
+  
+  let name: UILabel = {
+    let lb = UILabel()
+    lb.font = UIFont.boldSystemFont(ofSize: 20)
+    lb.translatesAutoresizingMaskIntoConstraints = false
+    return lb
+  }()
+  
+  let temp: UILabel = {
+    let lb = UILabel()
+    lb.font = UIFont.boldSystemFont(ofSize: 20)
+    lb.translatesAutoresizingMaskIntoConstraints = false
+    return lb
+  }()
+  
+  let precipitation: UILabel = {
+    let lb = UILabel()
+    lb.font = UIFont.boldSystemFont(ofSize: 20)
+    lb.translatesAutoresizingMaskIntoConstraints = false
+    return lb
+  }()
+  
+  let summary: UILabel = {
+    let lb = UILabel()
+    lb.font = UIFont.boldSystemFont(ofSize: 20)
+    lb.translatesAutoresizingMaskIntoConstraints = false
+    return lb
+  }()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+  lazy var vStackView: UIStackView = {
+    let sv = UIStackView(arrangedSubviews: [country, name, temp, precipitation, summary])
+    sv.translatesAutoresizingMaskIntoConstraints = false
+    sv.axis = .vertical
+    sv.alignment = .leading
+    sv.distribution = .fillEqually
+    sv.spacing = 20
+    return sv
+  }()
+  
+  var city: City! {
+    didSet {
+      country.text = "Country : \(city.icon)"
+      name.text = "City : \(city.name)"
+      temp.text = "Temperature : \(city.temp)"
+      precipitation.text = "Precipitation : \(String(city.precipitation))"
+      summary.text = "Summary : \(String(city.summary))"
     }
+  }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    title = "Detail of \(city.name)"
+    view.backgroundColor = .white
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    view.addSubview(vStackView)
+    vStackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 50).isActive = true
+    vStackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 50).isActive = true
+    vStackView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -50).isActive = true
+  }
 }
