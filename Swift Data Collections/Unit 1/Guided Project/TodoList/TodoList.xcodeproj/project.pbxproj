@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6092191C293940F500FE9BD1 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6092191B293940F500FE9BD1 /* ToDoTableViewCell.swift */; };
-		6092195E293995B200FE9BD1 /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6092195D293995B200FE9BD1 /* gitignore */; };
 		60D7D2C52936CF8E004FFF0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7D2C42936CF8E004FFF0A /* AppDelegate.swift */; };
 		60D7D2C72936CF8E004FFF0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7D2C62936CF8E004FFF0A /* SceneDelegate.swift */; };
 		60D7D2CC2936CF8E004FFF0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D7D2CA2936CF8E004FFF0A /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		6092191B293940F500FE9BD1 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
-		6092195D293995B200FE9BD1 /* gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitignore; sourceTree = "<group>"; };
 		60D7D2C12936CF8E004FFF0A /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D7D2C42936CF8E004FFF0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60D7D2C62936CF8E004FFF0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +47,7 @@
 		60D7D2B82936CF8E004FFF0A = {
 			isa = PBXGroup;
 			children = (
+				60D7D2D82936CF9B004FFF0A /* README.md */,
 				60D7D2C32936CF8E004FFF0A /* TodoList */,
 				60D7D2C22936CF8E004FFF0A /* Products */,
 			);
@@ -74,8 +73,6 @@
 				60D7D2CD2936CF8F004FFF0A /* Assets.xcassets */,
 				60D7D2CF2936CF8F004FFF0A /* LaunchScreen.storyboard */,
 				60D7D2D22936CF8F004FFF0A /* Info.plist */,
-				60D7D2D82936CF9B004FFF0A /* README.md */,
-				6092195D293995B200FE9BD1 /* gitignore */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -164,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D7D2D12936CF8F004FFF0A /* LaunchScreen.storyboard in Resources */,
-				6092195E293995B200FE9BD1 /* gitignore in Resources */,
 				60D7D2CE2936CF8F004FFF0A /* Assets.xcassets in Resources */,
 				60D7D2CC2936CF8E004FFF0A /* Main.storyboard in Resources */,
 			);
