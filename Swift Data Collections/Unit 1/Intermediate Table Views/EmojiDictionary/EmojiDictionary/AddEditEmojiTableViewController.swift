@@ -25,7 +25,7 @@ class AddEditEmojiTableViewController: UITableViewController {
   }
   
   required init?(coder: NSCoder) {
-    fatalError("init(coder:) has not been implemented")
+    super.init(coder: coder)
   }
   
   override func viewDidLoad() {
@@ -40,6 +40,10 @@ class AddEditEmojiTableViewController: UITableViewController {
       title = "Add Emoji"
     }
     updateSaveButtonState()
+  }
+  
+  @IBAction func CancelTapped(_ sender: UIBarButtonItem) {
+    dismiss(animated: true)
   }
   
   @IBAction func textEditingChanged(_ sender: Any) {
@@ -61,10 +65,8 @@ class AddEditEmojiTableViewController: UITableViewController {
     
     return (isCombinedIntoEmoji || isEmojiPresentation)
   }
-
-  @IBAction func CancelTapped(_ sender: UIBarButtonItem) {
-    dismiss(animated: true)
-  }
+  
+  // MARK: - Navigation
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     guard segue.identifier == "saveUnwind" else { return }
@@ -75,5 +77,4 @@ class AddEditEmojiTableViewController: UITableViewController {
     emoji = Emoji(symbol: symbol, name: name, description: description, usage: usage)
   }
 
-  
 }
