@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		609DD712295BB5DB00982E8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		60CA2F65292F478000BFE5B7 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CA2F68292F478000BFE5B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60CA2F6A292F478000BFE5B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		60CA2F5C292F478000BFE5B7 = {
 			isa = PBXGroup;
 			children = (
+				609DD712295BB5DB00982E8E /* README.md */,
 				60CA2F67292F478000BFE5B7 /* EmojiDictionary */,
 				60CA2F66292F478000BFE5B7 /* Products */,
 			);

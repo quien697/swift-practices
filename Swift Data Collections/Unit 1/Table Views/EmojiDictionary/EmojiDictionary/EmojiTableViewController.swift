@@ -53,7 +53,8 @@ class EmojiTableViewController: UITableViewController {
   
   // MARK: - Table view delegate
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    print("indexPath = \(indexPath)")
+    let emoji = emojis[indexPath.row]
+    print("\(emoji.symbol) \(indexPath)")
   }
   
   override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
