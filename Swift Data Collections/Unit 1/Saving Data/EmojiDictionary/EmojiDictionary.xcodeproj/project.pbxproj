@@ -31,7 +31,6 @@
 		60CA2F76292F478000BFE5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60CA2F7C292F48E200BFE5B7 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 		60CA2F7E292F492900BFE5B7 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
-		60D7D27529356115004FFF0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +74,6 @@
 				60CA2F71292F478000BFE5B7 /* Assets.xcassets */,
 				60CA2F73292F478000BFE5B7 /* LaunchScreen.storyboard */,
 				60CA2F76292F478000BFE5B7 /* Info.plist */,
-				60D7D27529356115004FFF0A /* README.md */,
 			);
 			path = EmojiDictionary;
 			sourceTree = "<group>";
