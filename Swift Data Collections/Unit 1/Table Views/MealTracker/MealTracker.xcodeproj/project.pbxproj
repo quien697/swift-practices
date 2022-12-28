@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		609DD714295BC21800982E8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		60DA7511292ED3BF009187AA /* MealTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DA7514292ED3BF009187AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60DA7516292ED3BF009187AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		60DA7508292ED3BF009187AA = {
 			isa = PBXGroup;
 			children = (
+				609DD714295BC21800982E8E /* README.md */,
 				60DA7513292ED3BF009187AA /* MealTracker */,
 				60DA7512292ED3BF009187AA /* Products */,
 			);

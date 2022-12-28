@@ -28,6 +28,7 @@
 		608CC9F62952989D002C46BE /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
 		608CC9F8295298D9002C46BE /* AthleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteTableViewController.swift; sourceTree = "<group>"; };
 		608CC9FA295298FC002C46BE /* AthleteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteFormViewController.swift; sourceTree = "<group>"; };
+		609DD715295BC28800982E8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		608CC9D629529599002C46BE = {
 			isa = PBXGroup;
 			children = (
+				609DD715295BC28800982E8E /* README.md */,
 				608CC9E129529599002C46BE /* FavoriteAthlete */,
 				608CC9E029529599002C46BE /* Products */,
 			);
