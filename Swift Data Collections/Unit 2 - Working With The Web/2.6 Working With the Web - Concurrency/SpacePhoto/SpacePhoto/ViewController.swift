@@ -34,6 +34,7 @@ class ViewController: UIViewController {
   
   func initUI() {
     title = ""
+    imageView.image = UIImage(systemName: "photo.on.rectangle")
     descriptionLabel.text = ""
     copyrightLabel.text = ""
     activityIndicator.startAnimating()
