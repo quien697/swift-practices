@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60B110AE296CDD4400BB1209 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B110AD296CDD4400BB1209 /* StoreItem.swift */; };
+		60B110B1296CE1F800BB1209 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B110B0296CE1F800BB1209 /* SearchResponse.swift */; };
 		60E9C148296B837D004F1ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E9C147296B837D004F1ADB /* AppDelegate.swift */; };
 		60E9C14A296B837D004F1ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E9C149296B837D004F1ADB /* SceneDelegate.swift */; };
 		60E9C14C296B837D004F1ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E9C14B296B837D004F1ADB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60B110AD296CDD4400BB1209 /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		60B110B0296CE1F800BB1209 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		60E9C144296B837D004F1ADB /* iTunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E9C147296B837D004F1ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60E9C149296B837D004F1ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60B110AF296CE1E000BB1209 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B110AD296CDD4400BB1209 /* StoreItem.swift */,
+				60B110B0296CE1F800BB1209 /* SearchResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		60E9C13B296B837D004F1ADB = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		60E9C146296B837D004F1ADB /* iTunesSearch */ = {
 			isa = PBXGroup;
 			children = (
+				60B110AF296CE1E000BB1209 /* Model */,
 				60E9C147296B837D004F1ADB /* AppDelegate.swift */,
 				60E9C149296B837D004F1ADB /* SceneDelegate.swift */,
 				60E9C14B296B837D004F1ADB /* ViewController.swift */,
@@ -141,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E9C14C296B837D004F1ADB /* ViewController.swift in Sources */,
+				60B110B1296CE1F800BB1209 /* SearchResponse.swift in Sources */,
 				60E9C148296B837D004F1ADB /* AppDelegate.swift in Sources */,
+				60B110AE296CDD4400BB1209 /* StoreItem.swift in Sources */,
 				60E9C14A296B837D004F1ADB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
