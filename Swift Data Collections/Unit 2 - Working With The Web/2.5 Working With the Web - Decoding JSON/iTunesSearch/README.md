@@ -5,6 +5,6 @@
 - Lesson: 2.4 Working With the Web - Decording JSON
 - Page: 423-429
 - Content: 
-  1. 
+  1. Fetch data and convert JSON Data to Swift types
 - Reference site:
   1. iTunes Search API:  https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
