@@ -13,11 +13,13 @@ class MenuController {
   static let orderUpdatedNotification = Notification.Name("MenuController.orderUpdated")
   
   let baseURL = URL(string: "http://localhost:8080/")
+  var userActivity = NSUserActivity(activityType: "com.example.OrderApp.order")
   typealias MinutesToPrepare = Int
   
   var order = Order() {
     didSet {
       NotificationCenter.default.post(name: MenuController.orderUpdatedNotification, object: nil)
+      userActivity.order = order
     }
   }
   
@@ -86,6 +88,19 @@ class MenuController {
     }
     
     return image
+  }
+  
+  func updateUserActivity(with controller: StateRestorationController) {
+    switch controller {
+    case .menu(let category):
+      userActivity.menuCategory = category
+    case .menuItemDetail(let menuItem):
+      userActivity.menuItem = menuItem
+    case .order, .categories:
+      break
+    }
+    
+    userActivity.controllerIdentifier = controller.identifier
   }
 }
 

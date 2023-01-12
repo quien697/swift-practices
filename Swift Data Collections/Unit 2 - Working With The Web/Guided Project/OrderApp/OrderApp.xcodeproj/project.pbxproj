@@ -23,6 +23,7 @@
 		60CE8214296F59B100C2841C /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE8213296F59B100C2841C /* OrderConfirmationViewController.swift */; };
 		60CE8216296F6C3A00C2841C /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE8215296F6C3A00C2841C /* MenuItemTableViewCell.swift */; };
 		60CE8218296F77CD00C2841C /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE8217296F77CD00C2841C /* OrderTableViewCell.swift */; };
+		60CE821E296F7E2200C2841C /* Restoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE821D296F7E2200C2841C /* Restoration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		60CE8213296F59B100C2841C /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 		60CE8215296F6C3A00C2841C /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
 		60CE8217296F77CD00C2841C /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		60CE821D296F7E2200C2841C /* Restoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restoration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				60CE8200296E8CB000C2841C /* Controller */,
 				60CE81FF296E8CA800C2841C /* View */,
 				60CE81FE296E8CA000C2841C /* Model */,
+				60CE821D296F7E2200C2841C /* Restoration.swift */,
 				60CE81E9296E8C6000C2841C /* AppDelegate.swift */,
 				60CE81EB296E8C6000C2841C /* SceneDelegate.swift */,
 				60CE81EF296E8C6000C2841C /* Main.storyboard */,
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CE821E296F7E2200C2841C /* Restoration.swift in Sources */,
 				60CE8210296E953000C2841C /* MenuController.swift in Sources */,
 				60CE820A296E92F900C2841C /* MenuItem.swift in Sources */,
 				60CE8204296E90BF00C2841C /* MenuTableViewController.swift in Sources */,
