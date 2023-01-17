@@ -1,4 +1,4 @@
-# iTunes Search (Part2)
+# iTunes Search (Part3)
 
 - Book: Develop in Swift Data Collections
 - Unit: 2 - Working with the Web
