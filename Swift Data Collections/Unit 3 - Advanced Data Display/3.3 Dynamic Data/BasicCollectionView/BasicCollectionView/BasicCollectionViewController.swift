@@ -106,7 +106,6 @@ class BasicCollectionViewController: UICollectionViewController {
 
 extension BasicCollectionViewController: UISearchResultsUpdating {
   func updateSearchResults(for searchController: UISearchController) {
-    print("hello")
     if let searchString = searchController.searchBar.text, !searchString.isEmpty {
       filteredItem = items.filter { $0.localizedCaseInsensitiveContains(searchString) }
     } else {
